@@ -1,0 +1,35 @@
+{
+  "name": "chainlink-random-number",
+  "version": "1.0.0",
+  "description": "Generating random number using chainlink oracle",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakbhavsar43/ChainLink-Ramdon-Number.git"
+  },
+  "keywords": [
+    "chainlink",
+    "solidity",
+    "blockchain",
+    "oracle"
+  ],
+  "author": "Deepak Bhavsar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakbhavsar43/ChainLink-Ramdon-Number/issues"
+  },
+  "homepage": "https://github.com/deepakbhavsar43/ChainLink-Ramdon-Number#readme",
+  "dependencies": {
+    "@chainlink/contracts": "^0.2.2",
+    "@openzeppelin/contracts": "^4.3.3"
+  },
+  "devDependencies": {
+    "sol-merger": "^3.1.0"
+  }
+}

@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "fee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "userProvidedSeed",
+						"type": "uint256"
+					}
+				],
+				"name": "getRandomNumber",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "requestId",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "keyHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "randomResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "requestId",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "randomness",
+						"type": "uint256"
+					}
+				],
+				"name": "rawFulfillRandomness",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RandomNumberConsumer.sol": "RandomNumberConsumer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts/src/v0.6/VRFConsumerBase.sol": {
+			"keccak256": "0x0631170c6f92cfe43a3305379788214a60175d2aa9b4c6716f0c66515e878129",
+			"urls": [
+				"bzz-raw://86f11fdc9eaa2819cc2405d8137fd6c3338526c8ebc4cb140775b2d4e5500160",
+				"dweb:/ipfs/QmUerSsz6Rfiw83SnJbxerEZsL6C8cv3krfcAxnverKtfk"
+			]
+		},
+		"@chainlink/contracts/src/v0.6/VRFRequestIDBase.sol": {
+			"keccak256": "0x0c3bd40c63dac8398a979b1228c8ecb1c269c157dd16f2dce2086d2270b65b22",
+			"urls": [
+				"bzz-raw://ed9db87be9dfb0f763a556d8d80356b08282b8ea48484838cdf470a5c3cd15d5",
+				"dweb:/ipfs/QmPLhwDAS3TPDiEQmTyqXnWBqwEMBSbXtjEiQDSGejoiPt"
+			]
+		},
+		"@chainlink/contracts/src/v0.6/interfaces/LinkTokenInterface.sol": {
+			"keccak256": "0xe245a7be950c94d87bb775ae9ee9fbd693fbe2987778e6ce0b04605ea44b7b68",
+			"urls": [
+				"bzz-raw://bd2c3165d949fc66fe407b96eb3dc2092c7e800f4c073b411bf7b96de3e156c9",
+				"dweb:/ipfs/QmcfJhR1Np4GsLWnww2Duqks2wEzYk8VDTvCAYy7MisG1r"
+			]
+		},
+		"@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol": {
+			"keccak256": "0x105f5e9491f3d0bbdd4f1c7627eb839d69b944bfd803028a01cc083597692c1f",
+			"urls": [
+				"bzz-raw://ec45a2748a024a947a921183d4102d5e206808588501d85ddc4f5668a009bc73",
+				"dweb:/ipfs/QmRNAMpq7LdWFnJ7wWKGbUuAcURaGSS42PMxtQ4vjrHmp9"
+			]
+		},
+		"contracts/RandomNumberConsumer.sol": {
+			"keccak256": "0x846dbdc186d2465c134d5cc8cbd09cd32ca4d03728301f70564a634fe9a5e1fd",
+			"urls": [
+				"bzz-raw://a89a37e0af6e4d67176369190862405ed72873fb82bfcb709578c4f841eaacd3",
+				"dweb:/ipfs/QmW2zLTHXY4jrhBc5BJshFgM8AZ8YfecLDGMTjyMJ66c84"
+			]
+		}
+	},
+	"version": 1
+}
